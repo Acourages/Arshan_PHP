@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    background-color: #0F172A;
+    color: #C4D0EC;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.top-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.intro-section {
+    flex: 0 0 auto; 
+    text-align: left;
+    position: fixed !important; 
+    top: 10rem !important; 
+    left: 2rem;
+    z-index: 10;
+    width: 200px; 
+    padding: 1rem 2rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.intro-section h1 {
+    font-size: 1.6rem; 
+    margin-bottom: 0.5rem;
+    color: #C4D0EC;
+    font-weight: 700;
+}
+
+.intro-section .title {
+    font-size: 1rem; 
+    color: #A0AEC0;
+    margin-bottom: 1rem;
+}
+
+.intro-section .intro-text {
+    font-size: 0.9rem; 
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.intro-section .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 0.75rem; 
+    margin-top: 1rem;
+}
+
+.intro-section .social-icons a {
+    color: #C4D0EC;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.intro-section .social-icons a:hover {
+    color: #48A6A7;
+}
+
+.about-projects-container {
+    flex: 1;
+    text-align: left;
+    padding-left: calc(200px + 4rem); 
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    background-color: #0F172A;
+    padding: 20px;
+    text-align: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+footer p {
+    color: #A0AEC0;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    .top-container {
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    .intro-section {
+        position: static;
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+    }
+    .about-projects-container {
+        padding-left: 0;
+    }
+}
