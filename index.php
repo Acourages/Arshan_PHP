@@ -12,6 +12,7 @@
 <body>
     <div class="top-container">
         <div class="intro-section">
+            <img src="assets/images/me_2.jpg" alt="Profile Photo" class="profile-photo">
             <h1 data-aos="fade-up" data-aos-delay="100">Arshan Hosseinlar</h1>
             <p class="title" data-aos="fade-up" data-aos-delay="200">Junior Software Engineer</p>
             <p class="intro-text" data-aos="fade-up" data-aos-delay="300">My playground for PHP experiments 💡🌱🛠️</p>
