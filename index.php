@@ -45,7 +45,7 @@
             <section id="projects-right">
                 <h2 data-aos="fade-up" data-aos-delay="100">Projects</h2>
 
-                <div class="project-entry" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-entry" data-aos="fade-up" data-aos-delay="100">
                     <div class="project-header">
                         <h3 class="project-title">CityCare Clinic Telegram Bot</h3>
                         <p class="project-time">2025</p>
@@ -64,7 +64,7 @@
                     <a href="https://github.com/Acourages/Clinic_Telegram_bot" target="_blank" class="view-project-link">View Project</a>
                 </div>
 
-                <div class="project-entry" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-entry" data-aos="fade-up" data-aos-delay="100">
                     <div class="project-header">
                         <h3 class="project-title">PHP Weather App</h3>
                         <p class="project-time">2025</p>
@@ -82,7 +82,7 @@
                     <a href="https://github.com/Acourages/WeatherNow-PHP" target="_blank" class="view-project-link">View Project</a>
                 </div>
 
-                <div class="project-entry" data-aos="fade-up" data-aos-delay="400">
+                <div class="project-entry" data-aos="fade-up" data-aos-delay="100">
                     <div class="project-header">
                         <h3 class="project-title">CryptoDataCollector</h3>
                         <p class="project-time">2023</p>
