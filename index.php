@@ -1,21 +1,31 @@
+<?php
+// Enable error reporting
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Awesome Portfolio</title>
+    <title>Arshan hosseinlar</title>
+    <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    
     <div class="top-container">
         <div class="intro-section">
             <img src="assets/images/me_2.jpg" alt="Profile Photo" class="profile-photo">
+            
             <h1 data-aos="fade-up" data-aos-delay="100">Arshan Hosseinlar</h1>
             <p class="title" data-aos="fade-up" data-aos-delay="200">Junior Software Engineer</p>
             <p class="intro-text" data-aos="fade-up" data-aos-delay="300">My playground for PHP experiments 💡🌱🛠️</p>
+
             <ul class="social-icons" data-aos="fade-up" data-aos-delay="400">
                 <li><a href="https://www.linkedin.com/in/arshan-hosseinlar/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/Acourages" target="_blank"><i class="fab fa-github"></i></a></li>
@@ -23,22 +33,26 @@
                 <li><a href="YOUR_TWITTER_URL" target="_blank"><i class="fab fa-twitter"></i></a></li>
             </ul>
         </div>
+
         <div class="about-projects-container">
             <section id="about" class="full-about">
-                <h2 data-aos="fade-up" data-aos-delay="100"></h2>
+                <h2 data-aos="fade-up" data-aos-delay="100">About Me 🧑‍💻</h2>
+
                 <p data-aos="fade-up" data-aos-delay="200">
-                    Hi, I'm Arshan, a passionate software engineer with a strong background in backend development.
-                    I specialize in Python, Django, and PHP, creating scalable and secure web applications.
-                    My experience also extends to Linux systems, where I manage servers and automate tasks.
+                    Hi, I'm Arshan, a passionate software engineer 🧑‍💻 with a strong background in backend development,
+                    I specialize in Python, Django, and PHP, creating scalable and secure web applications 🛡️,
+                    My experience also extends to Linux systems 🐧 where I manage servers ⚙️ and automate tasks ⚙️.
                 </p>
+
                 <p data-aos="fade-up" data-aos-delay="300">
-                    I’m proficient in SQL and NoSQL databases like MongoDB, and I love working with data-driven projects.
-                    Currently, I’m expanding my skills with AWS, building scalable cloud solutions, and applying Agile
-                    methodology to improve my development processes and teamwork.
+                    I’m proficient in SQL 📊 and NoSQL databases like MongoDB ⚙️, and I love working with data-driven projects 📊.
+                    Currently, I’m expanding my skills with AWS ☁️, building scalable cloud solutions 🚀, and applying Agile
+                    methodology ⚙️ to improve my development processes and teamwork 🤝
                 </p>
+
                 <p data-aos="fade-up" data-aos-delay="400">
-                    From building a healthcare reminder bot to a crypto data aggregator, I enjoy creating meaningful
-                    projects that solve real-world problems. I’m always learning and looking forward to the next challenge!
+                    From building a healthcare reminder bot 🤖 to a crypto data aggregator 💰, I enjoy creating meaningful
+                    projects that solve real-world problems 💡. I’m always learning ✨ and looking forward to the next challenge! ✨
                 </p>
             </section>
 
@@ -99,7 +113,17 @@
                     </ul>
                     <a href="https://github.com/Acourages/CryptoDataCollector" target="_blank" class="view-project-link">View Project</a>
                 </div>
+            </section>
 
+            <section id="contact-cta" data-aos="fade-up" data-aos-delay="500" class="contact-cta-section">
+                <h2 class="contact-cta-heading">Wanna Connect?</h2>
+                <p class="contact-cta-text">
+                    I'm always open to discussing new projects, collaborations, or just a friendly chat.
+                    Feel free to reach out!
+                </p>
+                <a href="contact.php" class="contact-link">
+                    Go to Contact Page <i class="fas fa-envelope"></i>
+                </a>
             </section>
         </div>
     </div>
@@ -112,7 +136,7 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
 </body>
 </html>
