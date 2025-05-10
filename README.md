@@ -34,9 +34,6 @@ This repository primarily serves as a showcase of my learning process. To view t
 - 🖌️ CSS
 - ✨ (Optional) Any specific PHP libraries or frameworks you might be experimenting with (e.g., Symfony components, Laravel Breeze - list them here if applicable).
 
-## License
-
-This project is intended for personal learning and portfolio purposes. However, if you find any part of it useful, it is open-source and available under the **MIT License**.
 
 ---
 
